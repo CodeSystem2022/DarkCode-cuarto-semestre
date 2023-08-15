@@ -1,5 +1,4 @@
 # DarkCode-cuarto-semestre
-# DarkCode-tercer-semestre
 [![Logo-Dar-KCode-Negro.png](https://i.postimg.cc/HsjxDwbs/Logo-Dar-KCode-Negro.png)](https://postimg.cc/tYQyFVrL)
 
  Repositorio general                                                                                                                                                     
