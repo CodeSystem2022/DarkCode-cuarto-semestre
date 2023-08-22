@@ -13,12 +13,12 @@
 
 | SEMANA       | SCRUM MASTER     |
 |------------- | -------------    |
-| 📍  semana 1  |     |
-| 📍  semana 2  |     |
-| 📍  semana 3	 |  |
-| 📍  semana 4	 |     |
-| 📍  semana 5	 | |
-| 📍  semana 6  |   |
+| 📍  semana 1  |JUAN SORATO    |
+| 📍  semana 2  |SEBASTIAN GARCÍA |
+| 📍  semana 3	 |FEDERICO SOSA    |
+| 📍  semana 4	 |GUSTAVO CESARETTI|
+| 📍  semana 5	 |JAVIER BREGA     |
+| 📍  semana 6  |GABRIELA MANCA  |
 | 📍  semana 7  |     |
 | 📍  semana 8  |   |
 | 📍  semana 9  |   |
