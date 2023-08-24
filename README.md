@@ -26,7 +26,7 @@
 | 📍  semana 11 ||
 | 📍  semana 12  |   |
 
-📝Registro
+📝Registro.
 
 | ACTIVIDAD    | CONFIRMACION   |
 |------------- | -------------  |
