@@ -1,6 +1,6 @@
 const productos=[
     {id:1,
-    productName: "Carne molida",
+    productName: "Carne molida especial",
     price:1000,
     quanty: 1,
     img:"/client/media/a.jpg"    
