@@ -12,7 +12,7 @@ class Conexion:
     _DB_PORT = '5432'
     _HOST = '127.0.0.1'
     _MIN_CON = 1
-    _MAX_CON = 5
+    _MAX_CON = 3
     _pool = None
 
     @classmethod
@@ -27,8 +27,8 @@ class Conexion:
             try:
                 cls._pool = pool.SimpleConnectionPool(cls._MIN_CON,
                                                       cls._MAX_CON,
-                                                      user=cls._HOST,
-                                                      host=cls._USERNAME,
+                                                      user=cls._USERNAME,
+                                                      host=cls._HOST,
                                                       password=cls._PASSWORD,
                                                       port=cls._DB_PORT,
                                                       database=cls._DATABASE)

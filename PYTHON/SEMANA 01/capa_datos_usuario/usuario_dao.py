@@ -55,18 +55,18 @@ class UsuarioDAO:
 
 if __name__ == '__main__':
     #Eliminar usuario
-    usuario = Usuario(id_usuario=3)
-    usuario_eliminado = UsuarioDAO.eliminar(usuario)
-    log.debug(f'Usuario modificado: {usuario_eliminado}')
+    # usuario = Usuario(id_usuario=3)
+    # usuario_eliminado = UsuarioDAO.eliminar(usuario)
+    # log.debug(f'Usuario modificado: {usuario_eliminado}')
 
     # Actualizar usuario
-    usuario = Usuario(id_usuario=1, username='', password='369')
-    usuario_modificado = UsuarioDAO.eliminar(usuario)
+    usuario = Usuario(id_usuario=2, username='', password='369')
+    usuario_modificado = UsuarioDAO.actualizar(usuario)
     log.debug(f'Usuario modificado: {usuario_modificado}')
 
     # Insertar usuario
     usuario = Usuario(username='Kelly', password='321')
-    usuario_insertado = UsuarioDAO.eliminar(usuario)
+    usuario_insertado = UsuarioDAO.insertar(usuario)
     log.debug(f'usuario_insertado: {usuario_insertado}')
 
     # Listar
