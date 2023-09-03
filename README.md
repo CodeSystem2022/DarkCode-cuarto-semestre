@@ -26,7 +26,7 @@
 | 📍  semana 11 ||
 | 📍  semana 12  |   |
 
-📝Registro
+📝Registro.
 
 | ACTIVIDAD    | CONFIRMACION   |
 |------------- | -------------  |
@@ -38,10 +38,10 @@
 | 📍  semana 6  |             |
 | 📍  semana 7  |             |
 | 📍  semana 8  |             |
-| 📍  semana 9  |            |
-| 📍  semana 10 |           |
-| 📍  semana 11 |           |
-| 📍  semana 12 |        |
+| 📍  semana 9  |             |
+| 📍  semana 10 |             |
+| 📍  semana 11 |             |
+| 📍  semana 12 |             |
 
 👨‍💻 Miembros del equipo    
 
