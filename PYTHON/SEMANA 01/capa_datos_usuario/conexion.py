@@ -1,6 +1,6 @@
 import sys
 
-import psycopg2 as bd
+from psycopg2 import pool
 
 from logger_base import log
 
@@ -10,9 +10,9 @@ class Conexion:
     _USERNAME = 'postgres'
     _PASSWORD = 'admin'
     _DB_PORT = '5432'
-    _HOST = "127.0.0.1"
+    _HOST = '127.0.0.1'
     _MIN_CON = 1
-    _MAX_CON = 5
+    _MAX_CON = 3
     _pool = None
 
     @classmethod
@@ -27,8 +27,8 @@ class Conexion:
             try:
                 cls._pool = pool.SimpleConnectionPool(cls._MIN_CON,
                                                       cls._MAX_CON,
-                                                      user=cls._HOST,
-                                                      host=cls._USERNAME,
+                                                      user=cls._USERNAME,
+                                                      host=cls._HOST,
                                                       password=cls._PASSWORD,
                                                       port=cls._DB_PORT,
                                                       database=cls._DATABASE)
@@ -40,16 +40,17 @@ class Conexion:
         else:
             return cls._pool
 
-    @classmethod      # video 1
+    @classmethod  # video 1
     def liberarConexion(cls, conexion):
-            cls.obtenerPool().putconn(conexion)
-            log.debug(f'Regresamos la conexion del pool: {conexion}')
+        cls.obtenerPool().putconn(conexion)
+        log.debug(f'Regresamos la conexion del pool: {conexion}')
 
     @classmethod
     def cerrarConexiones(cls):
         cls.obtenerPool().closeall()
 
 
+'''
 if __name__ == '__name__':
    conexion1 = Conexion.obtenerConexion()
    Conexion.liberarConexion(conexion1)
@@ -59,4 +60,4 @@ if __name__ == '__name__':
    Conexion.liberarConexion(conexion3)
    Conexion4 = Conexion.obtenerConexion()
    conexion5 = Conexion.obtenerConexion()
-   conexion6 = Conexion.obtenerConexion()
+   conexion6 = Conexion.obtenerConexion() '''
